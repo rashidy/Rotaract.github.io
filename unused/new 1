@@ -1,0 +1,256 @@
+	<div class="col s12">
+              <ul id="task-card" class="collection with-header">
+                  <li class="collection-header cyan">
+                      <h4 class="task-card-title">My Tasks</h4>
+                      <p class="task-card-date">March 15, 2020</p>
+           <a href="#task-modal" class="waves-effect task-add  modal-trigger waves-circle waves-light waves-effect btn-floating secondary-content" style="margin-top:-25px;"><i class="material-icons">add</i></a>
+				 </ul>  
+                <ul id="myUL">
+					
+  
+				</ul> 
+                  
+              
+ 
+              <div id="task-modal" class="modal">
+                <nav class="task-modal-nav red">
+                    <div class="nav-wrapper">
+                      <div class="left col s12 m5 l5">
+                        <ul>
+                          <li><a href="#!" class="todo-menu"></a>
+                          <span class=""></span></li>
+                          <li><a href="#!" class="todo-add" onclick="newElement()">Add</a>
+                          <span class=""></span></li>
+                        </ul>
+                      </div>
+                      <div class="col s12 m7 l7 hide-on-med-and-down">
+                        <ul class="right">
+                          <li><a href="#!"><i class="mdi-editor-attach-file"></i></a>
+                          <span class=""></span></li>
+                          <li><a href="#!"><i class="mdi-action-loyalty"></i></a>
+                          <span class=""></span></li>
+                          <li><a href="#!"><i class="mdi-navigation-more-vert"></i></a>
+                          <span class=""></span></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="modal-content">                    
+                    <div class="row">
+                      <form class="col s12">                        
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input id="myInput" type="text"  class="validate">
+                            <label for="todo-title">Todo Title</label>
+							
+                          </div>
+						  
+                        </div>
+						
+                        </div>
+						
+                          </div>
+						  
+                       </form>
+					   
+                        
+                      
+                    </div>
+                  </div>                 
+                </div>
+          </div>
+		  
+		  
+		  
+		  
+	<!--------------------------------------copied from inspect--------------------------------------------------------------------------------------->	  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  <div class="section">
+
+            <p class="caption">Premium todo page to manage your personal task easily, Swipe right to remove it on touch screen.</p>
+            <div class="divider"></div>
+            <div class="col s12">
+              <ul id="task-card" class="collection with-header">
+                  <li class="collection-header cyan">
+                      <h4 class="task-card-title">My Task</h4>
+                      <p class="task-card-date">March 26, 2015</p>
+                  </li>
+                  <a href="#task-modal" class="task-add modal-trigger btn-floating waves-effect waves-light"><i class="mdi-content-add"></i></a>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task5">
+                      <label for="task5" style="text-decoration: none;">Buy Materialize Admin Theme. <a href="#" class="secondary-content"><span class="ultra-small">Now</span></a>
+                      </label>
+                      <span class="task-cat teal">Work</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task6">
+                      <label for="task6" style="text-decoration: none;">Install Materialize Admin Theme. <a href="#" class="secondary-content"><span class="ultra-small">Today</span></a>
+                      </label>
+                      <span class="task-cat cyan">Webapp</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task7">
+                      <label for="task7" style="text-decoration: none;">Review and rate Materialize Admin Theme. <a href="#" class="secondary-content"><span class="ultra-small">Monday</span></a>
+                      </label>
+                      <span class="task-cat purple">Web API</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task1">
+                      <label for="task1" style="text-decoration: none;">Create Mobile App UI. <a href="#" class="secondary-content"><span class="ultra-small">Today</span></a>
+                      </label>
+                      <span class="task-cat teal">Mobile App</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task2">
+                      <label for="task2" style="text-decoration: none;">Check the new API standerds. <a href="#" class="secondary-content"><span class="ultra-small">Monday</span></a>
+                      </label>
+                      <span class="task-cat purple">Web API</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task3" checked="checked">
+                      <label for="task3" style="text-decoration: line-through;">Check the new Mockup of ABC. <a href="#" class="secondary-content"><span class="ultra-small">Wednesday</span></a>
+                      </label>
+                      <span class="task-cat pink">Mockup</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task4" checked="checked" disabled="disabled">
+                      <label for="task4" style="text-decoration: line-through;">I did it !</label>
+                      <span class="task-cat cyan">Mobile App</span>
+                  </li>
+                  <li class="collection-item dismissable" style="touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <input type="checkbox" id="task8" checked="checked" disabled="disabled">
+                      <label for="task8" style="text-decoration: line-through;">I did this too !</label>
+                      <span class="task-cat teal">Mobile App</span>
+                  </li>
+              </ul>
+
+              <div id="task-modal" class="modal" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 120.217px;">
+                <nav class="task-modal-nav red">
+                    <div class="nav-wrapper">
+                      <div class="left col s12 m5 l5">
+                        <ul>
+                          <li><a href="#!" class="todo-menu"><i class="modal-action modal-close  mdi-hardware-keyboard-backspace"></i></a>
+                          </li>
+                          <li><a href="#!" class="todo-add">Add</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col s12 m7 l7 hide-on-med-and-down">
+                        <ul class="right">
+                          <li><a href="#!"><i class="mdi-editor-attach-file"></i></a>
+                          </li>
+                          <li><a href="#!"><i class="mdi-action-loyalty"></i></a>
+                          </li>
+                          <li><a href="#!"><i class="mdi-navigation-more-vert"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="modal-content">                    
+                    <div class="row">
+                      <form class="col s12">                        
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input id="todo-title" type="text" class="validate">
+                            <label for="todo-title">Todo Title</label>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s6">                            
+                            <div class="select-wrapper initialized"><span class="caret">▼</span><input type="text" class="select-dropdown" readonly="true" data-activates="select-options-900df2fb-56a8-e551-d32d-185d3fbcea20" value="Choose your option"><ul id="select-options-900df2fb-56a8-e551-d32d-185d3fbcea20" class="dropdown-content select-dropdown" style="width: 340px; position: absolute; top: 0px; left: 0px; opacity: 1; display: none;"><li class="disabled"><span>Choose your option</span></li><li class=""><span>Design</span></li><li class=""><span>Develop</span></li><li class=""><span>Testing</span></li></ul><select class="initialized">
+                              <option value="" disabled="" selected="">Choose your option</option>
+                              <option value="1">Design</option>
+                              <option value="2">Develop</option>
+                              <option value="3">Testing</option>
+                            </select></div>
+                          </div>                          
+                          <div class="input-field col s6">
+                            <div class="file-field input-field">
+                              <input class="file-path validate" type="text">
+                              <div class="btn">
+                                <span>File</span>
+                                <input type="file">
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="input-field col s12">
+                              <textarea id="comments" class="materialize-textarea" length="500"></textarea>
+                              <label for="comments">Comments</label>
+                              <span class="character-counter"></span>
+                          <span class="character-counter" style="float: right; font-size: 12px; height: 1px;"></span></div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>                 
+                </div>
+          </div>
+          </div>
+		  
+		  
+		  
+		  
+<!-------------------------------------------edited my task --------------------------------------------------------------------------------------------------->		  
+		  
+		  	<div class="col s12">
+              <ul id="task-card" class="collection with-header">
+                  <li class="collection-header cyan">
+                      <h4 class="task-card-title">My Tasks</h4>
+                      <p class="task-card-date">March 15, 2020</p>
+           <a href="#task-modal" class="waves-effect task-add  modal-trigger waves-circle waves-light waves-effect btn-floating secondary-content" ><i class="material-icons">add</i></a>
+		   
+				
+                
+					
+  
+				</ul> 
+                  
+              
+ 
+              <div id="task-modal" class="modal">
+                <nav class="task-modal-nav red">
+                    <div class="nav-wrapper">
+                      <div class="left col s12 m5 l5">
+                        <ul>
+                          <li><a href="#!" class="todo-menu"></a>
+							
+                          <li><a href="#!" class="addBtn" onclick="newElement()">Add New Task</a>
+                          
+                        </ul>
+                      </div>
+                      
+                    </div>
+                  </nav>
+                  <div class="modal-content">                    
+                    <div class="row">
+                      <form class="col s12">                        
+                        <div class="row">
+                          <div class="input-field col s12">
+                            <input id="myInput" type="text" class="validate">
+                            <label for="todo-title">Todo Title</label>
+							
+                          </div>
+						  
+                        </div>
+						
+                        </div>
+						
+                          </div>
+						  
+                       </form>
+					   
+                        
+                      
+                    </div>
+                  </div>                 
+                </div>
+          </div>		
